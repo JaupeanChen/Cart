@@ -1,14 +1,21 @@
 package com.me.module_cart;
 
-import androidx.appcompat.app.AppCompatActivity;
+import com.me.module_common.BaseActivity;
 
-import android.os.Bundle;
-
-public class CartActivity extends AppCompatActivity {
+public class CartActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cart);
+    public int getLayout() {
+        return R.layout.activity_cart;
+    }
+
+    @Override
+    public boolean isNeedToolBar() {
+        return true;
+    }
+
+    @Override
+    public void initData() {
+        setToolbarTitle("购物车");
     }
 }
