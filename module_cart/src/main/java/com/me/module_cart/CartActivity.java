@@ -1,7 +1,9 @@
 package com.me.module_cart;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.me.module_common.BaseActivity;
 
+@Route(path = "/cart/CartActivity")
 public class CartActivity extends BaseActivity {
 
     @Override
