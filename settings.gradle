@@ -10,3 +10,4 @@ dependencyResolutionManagement {
 rootProject.name = "Cart"
 include ':app'
 include ':module_cart'
+include ':export_cart'
