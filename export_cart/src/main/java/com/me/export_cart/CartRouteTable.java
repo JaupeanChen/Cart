@@ -11,4 +11,6 @@ public interface CartRouteTable {
 
     String PATH_CART_SERVICE = "/cart/CartService";
 
+    String PATH_CART_FRAGMENT_ROUTE = "/cart/CartFragment";
+
 }
